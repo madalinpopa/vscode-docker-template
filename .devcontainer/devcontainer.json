@@ -1,0 +1,7 @@
+
+{
+	"name": "Template",
+	"dockerComposeFile": ["docker-compose.yml"],
+	"service": "web",
+	"workspaceFolder": "/home/code/",
+}

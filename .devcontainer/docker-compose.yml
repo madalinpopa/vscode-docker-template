@@ -1,0 +1,10 @@
+services:
+  web:
+    image: web:latest
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ../:/home/code/
+    command: /bin/sh -c "while sleep 1000; do :; done"
+      

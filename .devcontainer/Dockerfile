@@ -1,0 +1,7 @@
+# Variables
+ARG SRC=/home/code/
+ARG VERSION=3
+
+FROM python:$VERSION
+ARG SRC
+WORKDIR $SRC
